@@ -1,7 +1,7 @@
 # OS Assumptions
 #
 # Distributor ID:	Ubuntu
-# Description:	Ubuntu 16.04.1 LTS
+# Description:	Ubuntu 18.04 LTS
 # Release:	16.04
 # Codename:	xenial
 #
@@ -28,8 +28,8 @@ sudo ufw app info "Apache Full"
 sudo ufw allow in "Apache Full"
 
 # Install PHP
-sudo apt install php7.0
-sudo apt install libapache2-mod-php7.0
+sudo apt install php7.2
+sudo apt install libapache2-mod-php7.2
 
 # Install Xvfb
 sudo apt install xvfb
